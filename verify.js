@@ -62,3 +62,9 @@ function verify_50(coinbase, player1, player2, difficulty) {
 // verify_10("0xd7a15baeb7ea05c9660cbe03fb7999c2c2e57625", "0x1c92b965e3df9e85fc8a2548b7444b57e4fe37aa", "0x1c92b965e3df9e85fc8a2548b7444b57e4fe37aa", 12127718753);
 // verify_30("0xd7a15baeb7ea05c9660cbe03fb7999c2c2e57625", "0x1c92b965e3df9e85fc8a2548b7444b57e4fe37aa", "0x1c92b965e3df9e85fc8a2548b7444b57e4fe37aa", 12127718753);
 // verify_50("0xd7a15baeb7ea05c9660cbe03fb7999c2c2e57625", "0x1c92b965e3df9e85fc8a2548b7444b57e4fe37aa", "0x1c92b965e3df9e85fc8a2548b7444b57e4fe37aa", 12127718753);
+
+module.exports = {
+    verify_10,
+    verify_30,
+    verify_50
+}
