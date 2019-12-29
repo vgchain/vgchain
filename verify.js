@@ -33,7 +33,7 @@ function verify_10(coinbase, player1, player2, difficulty) {
     
     let a = rand_num % 10;
 
-    console.log("verify_10 got index:", a);
+    console.log("verify_10 got index:", a+1);
 }
 
 function verify_30(coinbase, player1, player2, difficulty) {
@@ -43,7 +43,7 @@ function verify_30(coinbase, player1, player2, difficulty) {
     let b = parseInt(rand_num / 100) % 10 % 3 + 3;
     let c = parseInt(rand_num / 1000) % 10 % 4 + 6;
 
-    console.log("verify_30 got index::", a, b, c);
+    console.log("verify_30 got index::", a+1, b+1, c+1);
 }
 
 function verify_50(coinbase, player1, player2, difficulty) {
@@ -55,7 +55,7 @@ function verify_50(coinbase, player1, player2, difficulty) {
     let d = parseInt(rand_num / 10000) % 10 % 2 * 5 + 3;
     let e = parseInt(rand_num / 100000) % 10 % 2 * 5 + 4;
 
-    console.log("verify_50 got index::", a, b, c, d, e);
+    console.log("verify_50 got index::", a+1, b+1, c+1, d+1, e+1);
 }
 
 // example
